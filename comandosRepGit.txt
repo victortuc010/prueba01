@@ -1,12 +1,15 @@
-…or create a new repository on the command line
-echo "# prueba01" >> README.md
+%%%%Configurar la cuenta github%%%%
+
+git config --global user.name "victortuc010"
+git config --global user.email "victortuc010@gmail.com"
+
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
+git add .
+git commit -m "mi primer commit (grabacion)"
+git branch -M master
 git remote add origin https://github.com/victortuc010/prueba01.git
-git push -u origin main
+git push -u origin master
 …or push an existing repository from the command line
 git remote add origin https://github.com/victortuc010/prueba01.git
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
